@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <button onclick="window.print()">Print this page</button>
+    <p id="demo">Hello World</p>
+    <button type="button" onclick="document.getElementById('demo').innerText = 'This button contains to a paragraph';">Click me to change Hello World</button>
+
+    <button type="button" onclick="document.write('Hahahahhahaha')">Click Here to Erase All information of HTML</button>
+    <button onclick="console.log('Hello World!')">Log</button>
+    <button onclick="window.alert('Hello World')">Click me</button>
+
+
+    <p id="hi">Here is another para</p>
+    <button type="button" onclick="document.getElementById('hi').innerHTML = '<i>The para was changed by me.</i>'";>Click Here</button>
+    <button type="button" ondblclick="document.querySelector('#hi').innerText = 'This para is changed by innerText.'";>Click Here</button>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
