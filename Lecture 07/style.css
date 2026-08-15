@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+#main {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222;
+    gap: 10px;
+}
+
+h1 {
+    color: #555;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 8rem;
+    user-select: none;
+}
+
+#file {
+    display: none;
+}
+
+#btn {
+    background: linear-gradient(90deg, rgb(83, 145, 124), rgb(30, 124, 141));
+    padding: 12px 22px;
+    color: #ffff;
+    border-radius: 10px;
+    user-select: none;
+}
+
+#btn:hover {
+    background: linear-gradient(90deg, rgb(30, 124, 141), rgb(83, 145, 124));
+    cursor: pointer;
+}
+
+.card {
+    /* display: inline-block; */
+    color: #ffff;
+    max-width: 300px;
+    border: 1px solid #e5e5e3;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card h3, h5, p {
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    padding: 10px 35px;
+    background-color: #555;
+    color: #e5e5e3;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.submit {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    cursor: pointer;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.submit:hover {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.hover {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(135deg, #3d9c30 0%, #2a5f8b 100%);
+    cursor: pointer;
+}
+
+/* .dot {
+    padding: 5px;
+    background-color: #f5576c;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+} */
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    gap: 30px;
+    list-style: none;
+    background-color: #386333;
+    color: aliceblue;
+    cursor: pointer;
+    user-select: none;
+}
+.line-through {
+    text-decoration: line-through coral;
+}
+
+.a {
+    height: 70vh;
+    width: 80%;
+    background-color: brown;
+    margin-top: 10px;
+}
+
+.b {
+    height: 80%;
+    width: 80%;
+    background-color: #3d9c30;
+}
+
+.c {
+    height: 80%;
+    width: 80%;
+    background-color: rgb(188, 190, 24);
+}
+
+.content{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Count {
+    background-color: #111a10;
+}
