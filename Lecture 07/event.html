@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="event.css">
+
+</head>
+
+<body>
+    <h1>Apple</h1>
+    <p class="colorChanging">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquid doloribus,
+        facilis esse incidunt molestias.</p>
+    <input type="text" placeholder="name" class="inp">
+    <h5>Here is output of your input: <span class="test"></span></h5>
+
+    <!-- 1. Change Text on Button Click -->
+    <p id="text">Hello World</p>
+    <button class="btn">Change Text</button>
+    <!-- Task:
+    When the button click, the paragraph text should be change into "Hello JavaScript".-->
+
+    <!-- 2. Change Background Color  -->
+    <button class="change_color">Change Color</button>
+    <br> <br>
+
+    <!-- 3. Show Input Value   -->
+    <input type="text" id="name">
+    <button class="btn-2">Show Name</button>
+    <p id="result"></p>
+
+    <!-- 4. Hide a Paragraph  -->
+    <p id="para">I am visible</p>
+    <button class="hide">Hide</button>
+    <!-- 5. Toggle Paragraph Visibility  -->
+    <p id="paRa">Toggle me</p>
+    <button class="hides">Toggle</button>
+
+
+    <!-- 6. Count Button Clicks -->
+    <button class="countBtn">Click Me</button>
+    <p class="paraCount">Count: 0</p>
+    <!-- every single click, the count should be increase -->
+
+    <!-- One click button -->
+    <button id="clickButton">click me</button>
+    <!-- Double click button, when you double click the button, then it will work -->
+    <button id="dblclickButton">Double click</button>
+    <p id="message"></p>
+
+    <button class="single-click" onclick="console.log('Button was clicked single time.')">single click!</button>
+    <button class="double-click" ondblclick="console.log('Button was clicked double times.')">double click!</button>
+
+    <!-- Select all <li> elements and print their text using a loop. -->
+    <ul id="my-list">
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Litchi</li>
+    </ul>
+
+    <!-- How to get the src of an image using JavaScript? -->
+    <img class="imag" src="barney-goodman-M2JxEAXQ9I4-unsplash.jpg" alt="">
+
+    <!-- What does setAttribute() do? setAttribute will change the attribute and their value.-->
+    <a href="" class="updating">Check out my Github Account.</a>
+
+    <!-- add a title attribute to a div dynamically. -->
+    <div class="title">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ullam suscipit cupiditate natus sequi? Nemo,
+        libero! Numquam at officia id nobis fugit.
+    </div>
+
+    <!-- Remove the disabled attribute -->
+    <div class="buuutton">
+        <a class="myAccount" href="">
+            <button class="visit-now" disabled>Visit Now</button>
+        </a>
+    </div>
+
+    <p class="toogle">Lorem ipsum dolor sit amet.</p>
+
+    <!-- Add a highlight class to every even item in a list.   -->
+    <ul class="ull">
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+    </ul>
+
+    <div class="div-box" onmouseover="console.log('This is a div box')">I'm a div box</div>
+    <button id="event">Event Button</button>
+
+    <!-- Qs. Create a toggle button that changes the screen to dark-mode when clicked & light-mode when clicked again -->
+    <button class="mode">change mode</button>
+
+    <!--  7. Change Image on Click
+    HTML:
+    <img id="img" src="image1.jpg" width="200">
+    <button>Change Image</button> -->
+    <div align="center">
+        <img id="img" src="image1.jpg" width="800">
+        <button id="imgBTN">Change Image</button>
+    </div>
+
+
+    <div class="inputs">
+        <h2 align="center">Write your favorite fruit name</h2>
+        <input type="text" id="item">
+        <button id="addBtn">Add</button>
+        <ul id="list">
+            <h3>Here is your list names</h3>
+        </ul>
+    </div>
+
+    <div>
+        <h3 class="selHeading">Select your device</h3>
+        <select name="" id="selection">
+            <option selected disabled>Choose your Device</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Apple">Apple iPhone</option>
+            <option value="Mi">Xiomi</option>
+            <option value="Oppo">Oppo</option>
+        </select>
+    </div>
+
+    <script src="event.js"></script>
+
+</body>
+
+</html>
