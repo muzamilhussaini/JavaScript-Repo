@@ -1,0 +1,48 @@
+.paragraph {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: linear-gradiant;
+}
+
+/* Now create a new class in CSS and try to append this class to the <p> element.   */
+.New-para {
+    color: rgb(88, 19, 19);
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+}
+
+.imag {
+    height: 60%;
+    width: 50%;
+    justify-content: center;
+}
+
+.visit-now {
+    background: linear-gradient(90deg, rgba(52, 164, 168, 1) 15%, rgba(0, 79, 94, 1) 90%);
+    border: none;
+    color: aliceblue;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 12px rgba(52, 164, 168, 1));
+    cursor: pointer;
+    font-family: Giloy;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.visit-now:hover {
+    background: linear-gradient(90deg, rgba(16, 68, 110, 0.88) 12%, rgba(72, 125, 122, 0.79) 100%);
+    filter: drop-shadow(10px 5px 16px rgba(52, 164, 168, 1));
+}
+
+.buuutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
