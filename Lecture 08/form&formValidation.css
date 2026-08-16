@@ -1,8 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html, body {
+    /* background: linear-gradient(45deg, rgb(126, 11, 11), #000); */
+    height: 100%;
+    width: 100%;
+}
+
 #hide {
     display: none;
-    color: red;
 }
+
 #hidden {
     display: none;
-    color: red;
+}
+
+small {
+    color: #ff8080;
+    font-size: 14px;
+}
+
+.testEmail{
+    display: none;
+}
+
+.testPassword {
+    display: none;
+    max-width: 250px;
+}
+.selected {
+    display: none;
+}
+main {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #7e0b0b,
+        #000000);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+#main {
+    height: 60vh;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    top: 20%;
+    left: 35%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(255, 255, 255, 0.15);
+}
+
+h2 {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    margin: 8px 0;
+    border: none;
+    font-size: 15px;
+}
+
+select {
+    width: 290px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 15px auto 0;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    padding: 0;
+    background-color: #7e0b0b;
+    color: #fff;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    transform: translateY(-3px);
 }

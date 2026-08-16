@@ -8,18 +8,35 @@
 </head>
 <body>
     <main>
-        <section>
+        <section id="main">
+            <h2>Create Account</h2>
             <form action="">
-                <input id="username" type="username" placeholder="Enter your name">
+                <!-- Pattern Attribute
+                <input pattern="[A-Za-z]{3,}"type="text" placeholder=""> -->
+                <input id="username" type="username" placeholder="Enter your name"> 
                 <div id="hidden">
                     <small class="user">Username is Required</small>
                 </div>
                 <div id="hide">
                     <small class="characters">Minimum 3 Characters Required</small>
                 </div>
-                
-                <input type="email" placeholder="Enter your Email">
-                <input type="password" placeholder="Enter your password">
+                <input id="email" type="text" placeholder="Enter your Email"> 
+                <div class="testEmail">
+                    <small>Invalid Email</small>
+                </div>
+                <input id="password" type="password" placeholder="Enter your password"> 
+                <div class="testPassword">
+                    <small>Password must contain uppercase, lowercase, number, special character and be at least 8 characters long.</small>
+                </div>
+                <select name="" id="">
+                    <option value="" selected disabled>Choose your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+                <div class="selected">
+                    <small>Please select your gender</small>
+                </div>
                 <input type="submit">
             </form>
         </section>
