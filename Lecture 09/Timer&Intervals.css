@@ -41,3 +41,48 @@ body {
 .hide {
     margin-top: 20px;
 }
+
+.starting {
+    background-color: aqua;
+}
+
+.active-start {
+    background-color: rgb(238, 238, 24);
+}
+
+.active-stop {
+    background-color: aquamarine;
+}
+
+.startBtn {
+    padding: 12px 22px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, rgb(38, 114, 70), white);
+    border: none;
+    color: rgb(73, 48, 38);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.stopBtn {
+    padding: 12px 22px;
+    border-radius: 10px;
+    background: linear-gradient(200deg, rgb(38, 114, 70), white);
+    border: none;
+    color: rgb(73, 48, 38);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.active-start {
+    background: linear-gradient(90deg, white, rgb(112, 30, 119));
+    
+}
+
+.active-stop {
+    background: linear-gradient(90deg, white, rgb(112, 30, 119));
+}
